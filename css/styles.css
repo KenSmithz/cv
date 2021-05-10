@@ -3,19 +3,21 @@
   }
 
 .name_animation {
-width:175px;
-height:27px;
+width:218px;
+height:31px;
 background-color: transparent;
 color: #000000;
 position: relative;
 font-weight:bold;
-font-size:22px;
+/*font-size:20px;*/
 -webkit-animation:name_animation 5s 1;
 -webkit-border-radius:5px;
+-moz-animation:name_animation 5s 1;
+-moz-border-radius:5px;
+-o-animation:name_animation 5s 1;
+-o-border-radius:5px;
 animation:name_animation 5s 1;
 border-radius:5px;
--moz-animation:name_animation 5s 1;
--o-animation:name_animation 5s 1;
 }
 
 @keyframes name_animation
@@ -73,17 +75,17 @@ border-radius:5px;
   }
 
   h1 {
-    color: #7d7d7d;
+    color: #000000;
   }
 
   h3 {
-    color: #7d7d7d;
+    color: #000000;
   }
 
   hr {
     border-style: none;
     border-top-style: dotted;
-    border-color: #7d7d7d;
+    border-color: #000000;
     border-width: 5px;
     width: 5%;
   }
